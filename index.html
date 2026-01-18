@@ -6,293 +6,276 @@
   <title>Houston Residential Electrician | Evenings & Weekends</title>
   <meta name="description" content="Houston electrician for homeowners. Evenings & weekends available. Submit a quick intake to get an estimate within 24 hours." />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Social previews (optional but helps look premium when shared) -->
+  <meta property="og:title" content="Houston Electrician — Done Right, Without the Runaround" />
+  <meta property="og:description" content="Residential electrician for Houston homeowners. Evenings & weekends. Get a quick estimate within 24 hours." />
+  <meta property="og:type" content="website" />
 </head>
 
 <body>
+  <!-- Top Bar -->
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true"></div>
-        <div class="brand-text">
-          <div class="brand-name">Houston Electrician</div>
-          <div class="brand-sub">Residential Electrician · Houston</div>
-        </div>
-      </div>
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Houston Electrician</span>
+          <span class="brand-sub">Residential · Houston</span>
+        </span>
+      </a>
 
-      <div class="header-actions">
-        <a class="link" href="tel:+13463081350">Call</a>
+      <nav class="header-actions" aria-label="Primary">
+        <a class="chip" href="tel:+13463081350">Call</a>
+        <a class="chip" href="sms:+13463081350">Text</a>
         <a class="btn btn--primary" href="#intake">Get estimate</a>
-      </div>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <!-- HERO -->
-    <section class="section hero">
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <h1>Electrical work done right — without the runaround.</h1>
+  <main id="top">
+    <!-- HERO (Safelite-style: promise + quick booking) -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Houston · Evenings & Weekends · Emergency work available</p>
 
-            <p class="subhead">
-              Houston electrician for homeowners who’ve been burned by cheap work
-              or priced out by big companies.
-            </p>
+        <h1>We’ll fix it right — without the runaround.</h1>
 
-            <div class="badges" role="list" aria-label="Service highlights">
-              <span class="badge" role="listitem">Local Houston service</span>
-              <span class="badge" role="listitem">Evenings & weekends</span>
-              <span class="badge" role="listitem">Emergency work available</span>
+        <p class="subhead">
+          For homeowners who’ve been burned by cheap work<br />
+          or priced out by big companies.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn--primary" href="#intake">Let’s get started</a>
+          <a class="btn btn--ghost" href="tel:+13463081350">Call/text: (346) 308-1350</a>
+        </div>
+
+        <div class="hero-strip">
+          <div class="strip-item">
+            <div class="strip-top">Response time</div>
+            <div class="strip-big">≤ 24 hrs</div>
+          </div>
+          <div class="strip-item">
+            <div class="strip-top">Service area</div>
+            <div class="strip-big">Houston-only</div>
+          </div>
+          <div class="strip-item">
+            <div class="strip-top">Scheduling</div>
+            <div class="strip-big">Nights / weekends</div>
+          </div>
+        </div>
+
+        <div class="hero-visual card">
+          <div class="visual-title">What you can expect</div>
+          <ul class="list">
+            <li>Clear explanation before work starts</li>
+            <li>Inspection fee applied toward the job</li>
+            <li>Fair pricing without cutting corners</li>
+            <li>We work until it’s finished properly</li>
+          </ul>
+          <div class="divider"></div>
+          <p class="muted">
+            Prefer text? Send your name + ZIP:
+            <a class="link" href="sms:+13463081350">(346) 308-1350</a>
+          </p>
+        </div>
+
+        <p class="fineprint center">
+          Emergencies are priced accordingly. Inspection fee is applied toward the job.
+        </p>
+      </div>
+    </section>
+
+    <!-- TRUST PILLARS (Safelite-style 3 icon cards) -->
+    <section class="section">
+      <div class="container center">
+        <h2>Electricians you can trust</h2>
+        <p class="muted narrow center">
+          You should never feel rushed, confused, or pressured. Here’s how we run jobs.
+        </p>
+
+        <div class="cards cards--three">
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Clipboard check -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M9 6h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M9 10h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M9 14h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M8 4.5h8a2 2 0 0 1 2 2V20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
             </div>
+            <h3>Transparency</h3>
+            <p class="muted">We explain what’s needed before work starts. You approve the plan.</p>
+          </div>
 
-            <div class="cta-row">
-              <a class="btn btn--primary" href="#intake">Get a quick estimate</a>
-              <a class="link" href="tel:+13463081350">Or call/text: (346) 308-1350</a>
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Location pin -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s7-5.1 7-12a7 7 0 1 0-14 0c0 6.9 7 12 7 12Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
             </div>
-
-            <p class="fineprint">
-              Response within 24 hours. Emergencies priced accordingly.
-            </p>
+            <h3>Local Houston service</h3>
+            <p class="muted">Houston-only. Evenings and weekends available.</p>
           </div>
 
-          <aside class="hero-card card" aria-label="What you get">
-            <h3 class="card-title">What you get</h3>
-            <ul class="list">
-              <li>Clear explanation before work starts</li>
-              <li>Inspection fee applied toward the job</li>
-              <li>Work done once — no corner-cutting</li>
-              <li>Scheduling that respects your time</li>
-            </ul>
-            <div class="card-divider"></div>
-            <p class="small">
-              Prefer text? Send your name + zip code to:
-              <a class="link" href="sms:+13463081350">(346) 308-1350</a>
-            </p>
-          </aside>
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Shield -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s8-3.5 8-10V6l-8-3-8 3v6c0 6.5 8 10 8 10Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Workmanship</h3>
+            <p class="muted">No rushed jobs. We aim to fix it once, correctly.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- PAIN ALIGNMENT -->
-    <section class="section">
-      <div class="container">
-        <h2>Most people get stuck between two bad options.</h2>
-        <p>
-          Electrical problems are frustrating, expensive, and usually urgent.
-          You either hire the cheapest option and hope it holds, or call a large company
-          that treats your job like it’s not worth their time.
-        </p>
-        <p><strong>Neither feels right.</strong></p>
-      </div>
-    </section>
-
-    <!-- REFRAME -->
+    <!-- CREDIBILITY BAND (Safelite-style big claim/stat area) -->
     <section class="section section--alt">
-      <div class="container">
-        <h2>Reasonable pricing doesn’t mean cutting corners.</h2>
-        <p>
-          It means the job is done once, the work is explained clearly,
-          and you’re not paying for someone else’s overhead.
+      <div class="container center">
+        <h2>Fast scheduling, serious work</h2>
+        <p class="muted narrow center">
+          When your electrical issue is urgent, you need someone who will actually show up and finish the job.
         </p>
-        <p>
-          You deserve electrical work that lasts — at a price that actually makes sense.
-        </p>
-      </div>
-    </section>
 
-    <!-- WHY US -->
-    <section class="section">
-      <div class="container">
-        <h2>Why homeowners choose us</h2>
-        <div class="grid-2">
-          <div class="card">
-            <ul class="list">
-              <li>We show up when others won’t</li>
-              <li>Nights and weekends available</li>
-              <li>Clear explanations before work starts</li>
-              <li>No rushing jobs to get to the next one</li>
-              <li>Respect for your home and time</li>
-            </ul>
+        <div class="band">
+          <div class="band-item">
+            <div class="band-big">Nights</div>
+            <div class="muted">Available</div>
           </div>
-          <div class="card">
-            <p>
-              Most of our work comes from people who were disappointed elsewhere.
-            </p>
-            <p class="small">
-              If you’re dealing with a recurring issue, a “mystery problem,” or work you don’t trust,
-              we’ll start with a clean inspection and a clear plan.
-            </p>
+          <div class="band-item">
+            <div class="band-big">Weekends</div>
+            <div class="muted">Available</div>
+          </div>
+          <div class="band-item">
+            <div class="band-big">Emergency</div>
+            <div class="muted">Priced accordingly</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PROOF -->
-    <section class="section section--alt">
-      <div class="container">
-        <h2>Real work. Real homes.</h2>
-        <p>Projects we handle include:</p>
-        <div class="grid-2">
-          <div class="card">
-            <ul class="list">
-              <li>Panel upgrades</li>
-              <li>Outlet & lighting installs</li>
-              <li>Troubleshooting & repairs</li>
-            </ul>
-          </div>
-          <div class="card">
-            <ul class="list">
-              <li>Remodel electrical work</li>
-              <li>Ceiling fans / fixtures</li>
-              <li>Small business jobs</li>
-            </ul>
-          </div>
-        </div>
-        <p class="small">
-          Photos and reviews are being added as projects are completed.
-        </p>
-      </div>
-    </section>
-
-    <!-- PROCESS -->
+    <!-- 3-STEP (Safelite-style “Getting your quote is easy”) -->
     <section class="section">
-      <div class="container">
-        <h2>How it works</h2>
+      <div class="container center">
+        <h2>Getting your estimate is easy</h2>
+
         <div class="steps">
-          <div class="step card">
+          <div class="step">
             <div class="step-num">1</div>
-            <div>
-              <div class="step-title">Quick intake</div>
-              <div class="small">Tell us what’s going on. Takes 2–3 minutes.</div>
+            <div class="step-body">
+              <div class="step-title">Tell us what’s going on</div>
+              <div class="muted">2–3 minutes. Photos help if you have them.</div>
             </div>
           </div>
 
-          <div class="step card">
+          <div class="step">
             <div class="step-num">2</div>
-            <div>
+            <div class="step-body">
               <div class="step-title">Inspection</div>
-              <div class="small">We assess the issue. Inspection fee goes toward the job.</div>
+              <div class="muted">Inspection fee is applied toward the job.</div>
             </div>
           </div>
 
-          <div class="step card">
+          <div class="step">
             <div class="step-num">3</div>
-            <div>
-              <div class="step-title">Clear price first</div>
-              <div class="small">You’ll know the cost before work begins.</div>
+            <div class="step-body">
+              <div class="step-title">Schedule service</div>
+              <div class="muted">We’ll lock a time that works (evenings/weekends).</div>
             </div>
           </div>
+        </div>
 
-          <div class="step card">
-            <div class="step-num">4</div>
-            <div>
-              <div class="step-title">Job done right</div>
-              <div class="small">We stay until it’s finished properly.</div>
-            </div>
-          </div>
+        <div class="center top-gap">
+          <a class="btn btn--primary" href="#intake">Get started</a>
         </div>
       </div>
     </section>
 
-    <!-- SOFT OBJECTION -->
-    <section class="section section--alt">
-      <div class="container">
-        <h2>Not a big company. Not a rushed crew.</h2>
-        <p>
-          Just a skilled electrician who takes pride in doing things right
-          and is willing to work when others won’t.
+    <!-- INTAKE -->
+    <section class="section section--alt" id="intake">
+      <div class="container center">
+        <h2>Let’s get started</h2>
+        <p class="muted narrow center">
+          We’ll review your request and contact you within 24 hours.
+          Prefer to call or text?
+          <a class="link" href="tel:+13463081350">(346) 308-1350</a>
         </p>
-      </div>
-    </section>
 
-    <!-- INTAKE FORM -->
-    <section class="section" id="intake">
-      <div class="container">
-        <div class="form-wrap">
-          <div class="form-copy">
-            <h2>Tell us what’s going on</h2>
-            <p>We’ll review your request and get back to you within 24 hours.</p>
-            <p class="small">
-              Prefer to call or text? <a class="link" href="tel:+13463081350">(346) 308-1350</a>
-            </p>
-          </div>
+        <form class="form card form-card"
+          action="https://formsubmit.co/miguelangel1.lara2002@gmail.com"
+          method="POST">
+          <!-- FormSubmit options -->
+          <input type="hidden" name="_subject" value="New Electrical Intake (Website)" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://bigmig10.github.io/houstonelectrician.github.io/confirmation.html" />
 
-          <form class="card form"
-                action="https://formsubmit.co/miguelangel1.lara2002@gmail.com"
-                method="POST">
-            <!-- FormSubmit options -->
-            <input type="hidden" name="_subject" value="New Electrical Intake (Website)" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://bigmig10.github.io/houstonelectrician.github.io/confirmation.html" />
-
+          <div class="form-grid">
             <label>
               <span>Name <span class="req">*</span></span>
               <input name="name" type="text" autocomplete="name" required />
             </label>
 
             <label>
-              <span>Phone number <span class="req">*</span></span>
+              <span>Phone <span class="req">*</span></span>
               <input name="phone" type="tel" autocomplete="tel" required />
               <span class="help">We respond by text or call.</span>
             </label>
 
             <label>
-              <span>Address or ZIP code</span>
+              <span>Address or ZIP</span>
               <input name="location" type="text" autocomplete="postal-code" />
               <span class="help">Houston area only.</span>
             </label>
 
             <label>
-              <span>What’s going on?</span>
-              <textarea name="issue" rows="4" placeholder="Brief description of the issue"></textarea>
-            </label>
-
-            <label>
-              <span>How urgent is this?</span>
+              <span>Urgency</span>
               <select name="urgency">
                 <option value="Not urgent">Not urgent</option>
                 <option value="Soon (this week)">Soon (this week)</option>
                 <option value="Urgent / emergency">Urgent / emergency</option>
               </select>
             </label>
+          </div>
 
-            <label>
-              <span>Best time to contact you</span>
-              <select name="best_time">
-                <option value="Evening">Evening</option>
-                <option value="Weekend">Weekend</option>
-                <option value="Anytime">Anytime</option>
-              </select>
-            </label>
+          <label class="top-gap">
+            <span>What’s going on?</span>
+            <textarea name="issue" rows="5" placeholder="Brief description of the issue"></textarea>
+          </label>
 
-            <button class="btn btn--primary btn--full" type="submit">Get my estimate →</button>
+          <label>
+            <span>Best time to contact you</span>
+            <select name="best_time">
+              <option value="Evening">Evening</option>
+              <option value="Weekend">Weekend</option>
+              <option value="Anytime">Anytime</option>
+            </select>
+          </label>
 
-            <p class="fineprint">
-              By submitting, you agree we can contact you about this request.
-            </p>
-          </form>
+          <button class="btn btn--primary btn--full top-gap" type="submit">Submit request →</button>
+
+          <p class="fineprint center">
+            By submitting, you agree we can contact you about this request.
+          </p>
+        </form>
+
+        <div class="footer-mini">
+          <div>Houston-only</div>
+          <div>Evenings & weekends</div>
+          <div>Emergency available</div>
+          <div>Response ≤ 24 hrs</div>
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-col">
-        <div class="footer-title">Service area</div>
-        <div class="small">Houston-only · Residential + small business</div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-title">Availability</div>
-        <div class="small">Evenings & weekends · Emergency work available</div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-title">Response time</div>
-        <div class="small">Within 24 hours</div>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
 
